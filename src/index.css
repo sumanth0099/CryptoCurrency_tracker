@@ -1,0 +1,31 @@
+:root {
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --surface-hover: #f1f5f9;
+  --text: #0f172a;
+  --border: #cbd5e1;
+  --accent: #6366f1;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+html.dark {
+  --bg: #0b1220;
+  --surface: #111827;
+  --surface-hover: #1f2937;
+  --text: #e5e7eb;
+  --border: #334155;
+  --accent: #8b5cf6;
+}
